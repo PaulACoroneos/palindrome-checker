@@ -1,0 +1,55 @@
+body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  background-color: #333333;
+  color:#fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#outer-wrapper {
+  background-color: #999999 ;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-shadow: 2px 2px 4px #999999;
+}
+
+label {
+  font-size: 1.25rem;
+  font-weight: semi-bold;
+
+}
+
+#palindrome-wrapper {
+  padding-top: 1rem;
+}
+
+#text-input {
+  width:250px;
+  height: 40px;
+  text-align:center;
+  font-weight:semi-bold;
+  font-size: 1rem;
+}
+
+#check-btn {
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #333333;
+  border: none;
+}
+
+#result {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+#palindrome {
+  font-weight: bold;
+}
